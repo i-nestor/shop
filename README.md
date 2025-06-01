@@ -3,7 +3,7 @@
 <a href="https://project.nesterov-ivan.ru" target="_blank">Shop demo</a>
 
 <p>
-Для запуска сайта локально:
-1. Cделайте миграции командой "php artisan migrate"
-2. Pаполните таблицу categories данными с помощью команды "php artisan db:seed --class=CategorySeeder"
+Для запуска сайта локально:<br>
+1. Cделайте миграции командой "php artisan migrate"<br>
+2. Заполните таблицу categories данными с помощью команды "php artisan db:seed --class=CategorySeeder"
 </p>
