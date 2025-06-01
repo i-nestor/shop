@@ -1,0 +1,4 @@
+
+composer create-project laravel/laravel=9 shop
+php artisan migrate
+php artisan db:seed --class=CategorySeeder

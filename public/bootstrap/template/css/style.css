@@ -1,0 +1,162 @@
+:root {
+    --red-400: rgb(220 100 50); /* #dc6432 */
+    --green-400: rgb(90 180 40); /* #5ab428 */
+    --blue-400: rgb(30 150 220); /* #1e96dc */
+    --yellow-400:  rgb(240 170 50); /* #f0aa32 */
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url('../fonts/Geometria.ttf');
+}
+
+body {
+    position:relative;
+    line-height: 1.25;
+    font-family: Geometria, sans-serif;
+}
+
+.back-icon, .add-icon, .edit-icon, .delete-icon, .cancel-icon, .save-icon {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.back-icon {
+    background-position: left;
+    background-image: url("../icons/back.svg");
+}
+
+.edit-icon {
+    background-position: left;
+    background-image: url("../icons/edit.svg");
+}
+
+.delete-icon {
+    background-position: left;
+    background-image: url("../icons/delete.svg");
+}
+
+.cancel-icon {
+    background-image: url("../icons/cancel.svg");
+}
+
+.save-icon {
+    background-image: url("../icons/save.svg");
+}
+
+.add-icon {
+    background-image: url("../icons/add.svg");
+}
+
+.back-icon:hover {
+    background-position: left;
+    background-image: url("../icons/back_hover.svg");
+}
+
+.edit-icon:hover {
+    background-position: left;
+    background-image: url("../icons/edit_hover.svg");
+}
+
+.delete-icon:hover {
+    background-position: left;
+    background-image: url("../icons/delete_hover.svg");
+}
+
+.cancel-icon:hover {
+    background-image: url("../icons/cancel_hover.svg");
+}
+
+.save-icon:hover {
+    background-image: url("../icons/save_hover.svg");
+}
+
+.add-icon:hover {
+    background-image: url("../icons/add_hover.svg");
+}
+
+.alert {
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.alert, .btn, .badge {
+    border-radius: 2rem;
+}
+
+.bg-primary {
+    background-color: var(--blue-400) !important;
+}
+
+.bg-success, .alert-success {
+    background-color: var(--green-400) !important;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--blue-400);
+    --bs-btn-border-color: var(--blue-400);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--blue-400);
+    --bs-btn-hover-border-color: var(--blue-400);
+    --bs-btn-focus-shadow-rgb: 13, 202, 240;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--blue-400);
+    --bs-btn-active-border-color: var(--blue-400);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--blue-400);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--blue-400);
+    --bs-gradient: none;
+}
+
+.btn-outline-success {
+    --bs-btn-color: var(--green-400);
+    --bs-btn-border-color: var(--green-400);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--green-400);
+    --bs-btn-hover-border-color: var(--green-400);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--green-400);
+    --bs-btn-active-border-color: var(--green-400);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--green-400);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--green-400);
+    --bs-gradient: none;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: var(--yellow-400); /* f0be46 */
+    --bs-btn-border-color: var(--yellow-400); /* f0be46 */
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--yellow-400); /* f0be46 */
+    --bs-btn-hover-border-color: var(--yellow-400); /* f0be46 */
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--yellow-400); /* f0be46 */
+    --bs-btn-active-border-color: var(--yellow-400); /* f0be46 */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--yellow-400); /* f0be46 */
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--yellow-400); /* f0be46 */
+    --bs-gradient: none;
+}
+
+.btn-outline-danger {
+    --bs-btn-color: var(--red-400);
+    --bs-btn-border-color: var(--red-400);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--red-400);
+    --bs-btn-hover-border-color: var(--red-400);
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--red-400);
+    --bs-btn-active-border-color: var(--red-400);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--red-400);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--red-400);
+    --bs-gradient: none;
+}
